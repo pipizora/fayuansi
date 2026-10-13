@@ -1,0 +1,5 @@
+@media(hover:hover) and (pointer:fine){body.traditional-cursor,body.traditional-cursor .utterance,body.traditional-cursor .stage{cursor:url('brush-cursor.svg') 4 29,auto}body.traditional-cursor button,body.traditional-cursor a,body.traditional-cursor [role=button],body.traditional-cursor select{cursor:url('brush-cursor.svg') 4 29,auto}body.traditional-cursor input{cursor:text}}
+.seal-impression{position:fixed;pointer-events:none;z-index:30;display:grid;place-items:center;width:30px;height:30px;border:2px solid #a74b38;color:#a74b38;background:#f6f3ebcc;font-family:"SimSun",serif;font-size:18px;line-height:1;transform:translate(-50%,-50%) rotate(-12deg);animation:seal-fade .6s ease-out forwards;box-shadow:inset 0 0 0 2px #f6f3eb,inset 0 0 0 3px #a74b38}
+@keyframes seal-fade{0%{opacity:.85;scale:.86}35%{opacity:.8;scale:1}100%{opacity:0;scale:1}}
+@media(prefers-reduced-motion:reduce){.seal-impression{display:none}*{scroll-behavior:auto!important;transition:none!important}}
+.cursor-option{display:flex;align-items:center;gap:10px;margin:16px 0;padding:12px;border:1px solid var(--line);font-size:12px}
